@@ -344,15 +344,3 @@ Compiled cleanly with Vite (`1691` modules transformed).
 - **API Hardening & Input Validation:** Express configures `helmet`, scoped `cors`, `express-rate-limit`, Zod request validation, and in-memory Multer PDF validation (`<= 5 MB`, `%PDF-` signature) without serving uploaded files publicly. FastAPI request logging records only method, path, status, latency, and client IP—never resume text or keys.
 
 ---
-
-## 15. Author and Contact
-
-- **Name:** `[Your Name]`
-- **GitHub:** `[Your GitHub Profile URL]`
-- **LinkedIn:** `[Your LinkedIn Profile URL]`
-
----
-
-## 16. License
-
-No `LICENSE` file is currently included in this repository. Add an appropriate open-source or proprietary license file (such as `MIT` or `Apache-2.0`) separately before publishing if desired.
