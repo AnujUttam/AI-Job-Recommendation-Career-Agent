@@ -38,14 +38,9 @@ Job seekersâ€”especially students, recent graduates, and early-career engineersâ
 ---
 
 ## 3. Screenshots
+<img width="1900" height="910" alt="Screenshot 2026-11-25 170744" src="https://github.com/user-attachments/assets/afcb35a7-37e0-493f-9a6e-05055a25a8dd" />
+<img width="1902" height="907" alt="Screenshot 2026-11-25 170725" src="https://github.com/user-attachments/assets/99b5a0d2-c88d-4b62-a024-a19a286444f5" />
 
-> **Screenshots Placeholder**  
-> Add application screenshots here once captured from a running local environment (for example under `docs/screenshots/`):
-> - `Dashboard`: KPI cards, resume completeness, skill gaps, and recommended roles (`/`).
-> - `Resume Analyzer`: PDF upload progress, ATS score, and extracted sections (`/resume`).
-> - `Job Explorer`: Semantic/keyword search, filters, match badges, and job detail modal (`/jobs`).
-> - `Skill Gap & Roadmap`: Skill-match breakdown, learning priorities, and 4-stage roadmap (`/career-plan`).
-> - `AI Career Assistant`: Conversation history sidebar, tool-usage tags, and provider status badge (`/assistant`).
 
 ---
 
