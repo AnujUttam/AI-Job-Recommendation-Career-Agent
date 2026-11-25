@@ -1,0 +1,23 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: careerai-qdrant
+    restart: unless-stopped
+    ports:
+      # Bind to loopback on host so Qdrant is not publicly exposed on external interfaces
+      - "127.0.0.1:6333:6333"
+      - "127.0.0.1:6334:6334"
+    environment:
+      # Disable built-in Qdrant Web UI / admin static interface by default in production
+      QDRANT__SERVICE__ENABLE_STATIC_CONTENT: ${QDRANT_ENABLE_STATIC_CONTENT:-false}
+      QDRANT__SERVICE__API_KEY: ${QDRANT_API_KEY:-}
+    volumes:
+      - qdrant_storage:/qdrant/storage
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:6333/readyz || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  qdrant_storage:

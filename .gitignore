@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Python environments & cache
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Build outputs & caches
+dist/
+build/
+frontend/dist/
+coverage/
+.vite/
+uploads/
+backend/uploads/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+frontend/.env
+backend/.env
+ai-service/.env
+
+# Logs & OS files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Local vector storage
+qdrant_storage/
+docker/qdrant_storage/
